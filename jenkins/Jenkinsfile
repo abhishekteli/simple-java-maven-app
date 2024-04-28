@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                echo 'Test Completed!'
+                echo 'Delivery Completed!'
             }
         }
     }
