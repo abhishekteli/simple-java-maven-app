@@ -1,6 +1,11 @@
 pipeline {
     agent any
     stages {
+        stage('stage1'){
+            steps{
+                echo 'test webhook'
+            }
+        }
         stage('Deliver') {
             steps {
                 echo 'Webhook Completed!'
