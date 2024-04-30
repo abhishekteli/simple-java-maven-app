@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Deliver') {
             steps {
-                echo 'Webhook test Completed!'
+                echo 'Webhook Completed!'
             }
         }
     }
